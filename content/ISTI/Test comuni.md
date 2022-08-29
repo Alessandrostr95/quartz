@@ -38,7 +38,7 @@ Perciò nel nostro caso, con $c = 2.25$ avremo all'incirca il $2.5%$ che il test
 
 ## Distribuzione normale, varianza nota, media sconosciuta - part 2
 
-Supponiamo di essere nella situazione del [precedente esercizio](Test%20pi%C3%B9%20comuni.md#distribuzione-normale-varianza-nota-media-sconosciuta-part-1), con la differenza che le ipotesi sono del tipo
+Supponiamo di essere nella situazione del [precedente esercizio](Test%20comuni.md#distribuzione-normale-varianza-nota-media-sconosciuta-part-1), con la differenza che le ipotesi sono del tipo
 $$\begin{align\*}
 H_0: \theta \leq \theta_0\\
 H_1: \theta > \theta_0\\
@@ -114,7 +114,7 @@ Definiamo quindi la statistica $$T = \frac{\left(\overline{X}\_1 - \overline{X}\
 
 A questo punto, come prima vogliamo **rifiutare** $H_0$ se $|T| > c$.
 
-Calcoliamo quindi la probabilità di errore tipo I, con la [fromula precedente](Test%20pi%C3%B9%20comuni.md#3d2fb2) $$1 - \alpha = \Phi(c) - \Phi(-c)$$
+Calcoliamo quindi la probabilità di errore tipo I, con la [fromula precedente](Test%20comuni.md#3d2fb2) $$1 - \alpha = \Phi(c) - \Phi(-c)$$
 
 ---
 
@@ -124,7 +124,7 @@ Come prima, consideriamo due **campioni indipendenti** $\mathbf{X}\_1$ e $\mathb
 
 Sostituendo $\sigma_1^2$ e $\sigma_2^2$ con le reispetive varianze campionarie $S_1^2$ e $S_2^2$ questa volta non si ottiene che
 $$T = \frac{\left(\overline{X}\_1 - \overline{X}\_2\right) - (\mu_1 - \mu_2)}{\sqrt{S_1^2/n_1 + S_2^2/n_2}}$$
-**non** segue una distribuzione $t$ di Student, come nel [caso precedente](Test%20pi%C3%B9%20comuni.md#distribuzione-normale-varianza-e-media-sconosciute).
+**non** segue una distribuzione $t$ di Student, come nel [caso precedente](Test%20comuni.md#distribuzione-normale-varianza-e-media-sconosciute).
 
 In questo caso possiamo applicare 2 approcci:
 
@@ -139,7 +139,7 @@ In questo caso possiamo applicare 2 approcci:
 
 ## Differenza tra due valori attesi, campioni indipendenti, varianze ignote differenti
 
-Poniamoci nel [contesto precedente](Test%20pi%C3%B9%20comuni.md#differenza-tra-due-valori-attesi-campioni-indipendenti-varianze-ignote), e supponiamo di non poter in alcun modo assumere che le due varianze ignote siano uguali.
+Poniamoci nel [contesto precedente](Test%20comuni.md#differenza-tra-due-valori-attesi-campioni-indipendenti-varianze-ignote), e supponiamo di non poter in alcun modo assumere che le due varianze ignote siano uguali.
 
 Esiste un terzo approccio che **approssima** una soluzione, e che è ritenuta essere una buona approssimazione.
 Come prima definiamo la statistica $$T = \frac{\overline{X}\_1 - \overline{X}\_2}{\sqrt{S_1^2/n_1 + S_2^2/n_2}}$$

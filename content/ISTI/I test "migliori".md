@@ -2,7 +2,7 @@
 ---
 
 Abbiamo visto che ci sono svariati modi di definire un test.
-Quello che ci si può chiedere è se dobbiamo necessariamente ogni volta ricavarci un test definendo una statistica opportuna (vedi per esempio [z-test](Test%20pi%C3%B9%20comuni.md#z-test) o [t-test](Test%20pi%C3%B9%20comuni.md#t-test-di-student)), oppure se esiste una famiglia di test "**migliore**" a livello qualitativo rispetto agli altri.
+Quello che ci si può chiedere è se dobbiamo necessariamente ogni volta ricavarci un test definendo una statistica opportuna (vedi per esempio [z-test](Test%20comuni.md#z-test) o [t-test](Test%20comuni.md#t-test-di-student)), oppure se esiste una famiglia di test "**migliore**" a livello qualitativo rispetto agli altri.
 
 ## Test "più potente"
 

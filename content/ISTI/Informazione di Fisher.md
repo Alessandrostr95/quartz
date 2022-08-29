@@ -48,7 +48,7 @@ Invece per statistiche $T$ *in generale* vale che $$I\_{\mathbf{X}}(\theta) \geq
 
 ## Implicazioni sulla Efficienza di una statistica
 
-La [disuguaglianza di Cramér-Rao](Cram%C3%A9r-Rao%20Inequality.md) stabilisce una correlazione tra **informazione di Fisher** e **varianza di uno stimatore non distorto**.
+La [disuguaglianza di Cramér-Rao](Cramer-Rao%20Inequality.md) stabilisce una correlazione tra **informazione di Fisher** e **varianza di uno stimatore non distorto**.
 Più precisamente ricordiamo che dato uno stimatore non distorto $\hat{\theta}$ del parametro $\theta$ vale che $$\text{Var}(\hat{\theta}) \geq \frac{1}{I(\theta)}$$
 
 ---

@@ -43,4 +43,4 @@ Definiamo l'*ipotesi nulla* $$H_0: \theta = \theta_0$$
 Consideriamo uno [MLE](Stimatore%20di%20Massima%20Verosimiglianza.md#stimatore-di-massima-verosimiglianza-mle) $\hat\theta\_{ML}$ per $\theta$.
 
 Sotto ipotesi nulla $H_0$, sappiamo che [asintoticamente avremo](Stimatore%20di%20Massima%20Verosimiglianza.md#c3b404) $$T = \sqrt{nI(\theta_0)} \cdot {(\hat\theta\_{ML} - \theta_0)}\sim N(0, 1)$$
-Periò possiamo applicare lo [z-test](Test%20pi%C3%B9%20comuni.md#z-test).
+Periò possiamo applicare lo [z-test](Test%20comuni.md#z-test).

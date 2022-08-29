@@ -8,7 +8,7 @@ In parole semplici, potrebbe capitare di osservare dei dati che inducono al rifi
 Il *p-value* aiuta a capire se la differenza tra i dati osservati e l'ipotesi nulla sia dovuta a un puro caso, oppure se in realtà tale differenza è **statisticamente rilevante**, ovvero difficilmente dovuta a un puro caso.
 
 Consideriamo un [campione](Random%20Sample.md#random-sample) $X_1, ..., X_n$ preso da una popolazione della quale non conosciamo le media $\mu$, e definiamo l'ipotesi nulla $$H_0: \mu \leq \mu_0$$
-Normaliziamo i dati tramite un semplice [z-test](Test%20pi%C3%B9%20comuni.md#z-test), definendo il valore osservato $$T = \frac{\overline{X} - \mu_0}{\sigma/\sqrt{n}}$$ che avrà una distribuzione normale standardizzata $N(0,1)$.
+Normaliziamo i dati tramite un semplice [z-test](Test%20comuni.md#z-test), definendo il valore osservato $$T = \frac{\overline{X} - \mu_0}{\sigma/\sqrt{n}}$$ che avrà una distribuzione normale standardizzata $N(0,1)$.
 
 Il p-value è definita come la probabilità di ottenere un risultato "**più estremo**" di quello osservato $T$, sotto l'ipotesi che $H_0$ sia vera.
 
@@ -69,7 +69,7 @@ vline!([T], c=:black, ls=:dot, label="T")
 Se prendiamo in esempio la figura in esempio, abbiamo che $p(\mathbf{X}) \< \alpha$, ovvero i dati osservati risultano *significativamente differenti* da ci che ci si aspettava se $H_0$ fosse vera, perciò rifiutiamo $H_0$.
 
 Infine consideriamo il caso **bilaterale**, con iptesi nulla del tipo $$H_0: \mu = \mu_0$$
-Avevamo [visto](Test%20pi%C3%B9%20comuni.md#distribuzione-normale-varianza-nota-media-sconosciuta-part-1) che rifiutavamo $H_0$ quando $\vert T \vert > c$.
+Avevamo [visto](Test%20comuni.md#distribuzione-normale-varianza-nota-media-sconosciuta-part-1) che rifiutavamo $H_0$ quando $\vert T \vert > c$.
 In questo caso, dato che rifiutavamo $T$ nelle due code in maniera <u>simmetrica</u>, avevamo $\alpha/2$ di errore sulla coda destra e $\alpha/2$ di errore sulla coda sinistra.
 Perciò è significativo rifiutare $H_0$ quando $$p(X_1,...,X_n) \< \frac{\alpha}{2}$$
 

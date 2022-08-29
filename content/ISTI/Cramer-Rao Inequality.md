@@ -22,7 +22,7 @@ Da [Informazione di Fisher > Esempio - Campione esponenziale](Informazione%20di%
 
 Sia quindi la [media campionaria](Random%20Sample.md#media-campionaria) $\overline{X} = (X_1 + ... + X_n)/n$ uno [stimatore puntuale](Stimatori%20Puntuali.md#stimatori-puntuali) della media di una v.a. esponenziale, ovvero $1/\lambda$.
 Si può verificare che $\overline{X}$ è [non distorto](Stimatori%20Puntuali.md#401481), infatti $$\mathbb{E}*\\lambda\left\[ \overline{X} \right\] = \frac{1}{n} \sum*{i=1}^{n}\mathbb{E}*\\lambda\left\[ X_i \right\] = \frac{1}{\lambda}$$
-Perciò applicando la [disuguaglianza di Cramér-Rao](Cram%C3%A9r-Rao%20Inequality.md#c8c14d) avremo che $$\text{Var}*\\lambda(\overline{X}) \geq \frac{1}{I(\theta)} = \frac{\lambda^2}{n}$$ 
+Perciò applicando la [disuguaglianza di Cramér-Rao](Cramer-Rao%20Inequality.md#c8c14d) avremo che $$\text{Var}*\\lambda(\overline{X}) \geq \frac{1}{I(\theta)} = \frac{\lambda^2}{n}$$ 
 
 Proviamo ora a considerare lo stimatore $$\hat{\lambda} = \frac{1}{\overline{X}}$$ per il parametro $\lambda$.
 
